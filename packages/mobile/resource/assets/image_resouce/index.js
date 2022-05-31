@@ -1,0 +1,18 @@
+export const TAKE_TO_IMAGES={
+"american": require("./american.png"),
+"avatar": require("./avatar.png"),
+"bag": require("./bag.png"),
+"chat_dp": require("./chat_dp.png"),
+"check": require("./check.png"),
+"eye": require("./eye.png"),
+"flag1": require("./flag1.png"),
+"flag2": require("./flag2.png"),
+"gaurd": require("./gaurd.png"),
+"lock": require("./lock.png"),
+"marker": require("./marker.png"),
+"master": require("./master.png"),
+"message": require("./message.png"),
+"placeholder": require("./placeholder.png"),
+"store": require("./store.png"),
+"visa": require("./visa.png"),
+}

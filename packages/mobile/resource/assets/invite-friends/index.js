@@ -1,0 +1,1 @@
+export {default as gift} from './gift.svg';

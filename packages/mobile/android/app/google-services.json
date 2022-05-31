@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "562362298246",
+    "project_id": "taketo-4e391",
+    "storage_bucket": "taketo-4e391.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562362298246:android:db9edda15bcf5a8f3b4607",
+        "android_client_info": {
+          "package_name": "com.taketo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562362298246-aerb2ds937uldf4bpge1qm8p1drm50un.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.taketo",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "562362298246-7d3tac8o731nu20p28pg0dnmcqcrv5dr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkagFfV6E7CrgaQ12Itc50KAfAQRlF17Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562362298246-7d3tac8o731nu20p28pg0dnmcqcrv5dr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "562362298246-vi2qt4s8sqc0g024fbmif3j6nlt4sqcb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.taketo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

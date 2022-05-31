@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11.688" height="14.875" viewBox="0 0 11.688 14.875">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_51" data-name="Path 51" d="M2.37-15.223a5.851,5.851,0,0,0-1.714,4.13A5.785,5.785,0,0,0,1.834-7.587s.159.21.185.24L6.5-2.062,10.983-7.35l.183-.237v0a5.783,5.783,0,0,0,1.177-3.5,5.851,5.851,0,0,0-1.714-4.13A5.851,5.851,0,0,0,6.5-16.937h0A5.851,5.851,0,0,0,2.37-15.223ZM6.5-9.654,4.588-8.437,4.906-10.6,3.313-12.064l2.231-.269L6.5-14.281l1.016,1.948,2.172.269L8.094-10.6l.319,2.164Z" transform="translate(-0.656 16.937)" fill="#fff" clip-rule="evenodd"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_50" data-name="Path 50" d="M0-2H318V-17H0Z" transform="translate(0 17)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="pin_icon" data-name="pin icon" clip-path="url(#clip-path)">
+    <g id="Group_70" data-name="Group 70" transform="translate(-0.656 -0.063)" clip-path="url(#clip-path-2)">
+      <path id="Path_49" data-name="Path 49" d="M-4.344-21.937H17.344V2.938H-4.344Z" transform="translate(0 17)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

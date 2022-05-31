@@ -1,0 +1,1 @@
+export {default as logo} from './store_logo.svg';

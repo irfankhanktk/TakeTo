@@ -1,0 +1,161 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/Cellar/node/17.0.1/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'npm@13.14.1'
+1 verbose cli ]
+2 info using npm@3.10.3
+3 info using node@v17.0.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData npm@13.14.1
+8 silly fetchNamedPackageData npm
+9 silly mapToRegistry name npm
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'npm',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'npm',
+12 silly mapToRegistry   name: 'npm',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag'
+12 silly mapToRegistry }
+13 silly mapToRegistry uri https://registry.npmjs.org/npm
+14 verbose request uri https://registry.npmjs.org/npm
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 11:28:50
+17 verbose request id 7735edef2d94ff85
+18 verbose etag W/"e85cbb107fef9a3e7ac539c87e764341"
+19 verbose lastModified Thu, 03 Mar 2022 21:31:23 GMT
+20 http request GET https://registry.npmjs.org/npm
+21 http 304 https://registry.npmjs.org/npm
+22 verbose headers {
+22 verbose headers   date: 'Fri, 04 Mar 2022 06:28:53 GMT',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'cf-ray': '6e688de969483bf5-ISB',
+22 verbose headers   age: '21',
+22 verbose headers   'cache-control': 'public, max-age=300',
+22 verbose headers   etag: '"e85cbb107fef9a3e7ac539c87e764341"',
+22 verbose headers   'last-modified': 'Thu, 03 Mar 2022 21:31:23 GMT',
+22 verbose headers   vary: 'Accept-Encoding',
+22 verbose headers   'cf-cache-status': 'HIT',
+22 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 verbose headers   'x-amz-replication-status': 'COMPLETED',
+22 verbose headers   server: 'cloudflare'
+22 verbose headers }
+23 silly get cb [
+23 silly get   304,
+23 silly get   {
+23 silly get     date: 'Fri, 04 Mar 2022 06:28:53 GMT',
+23 silly get     connection: 'keep-alive',
+23 silly get     'cf-ray': '6e688de969483bf5-ISB',
+23 silly get     age: '21',
+23 silly get     'cache-control': 'public, max-age=300',
+23 silly get     etag: '"e85cbb107fef9a3e7ac539c87e764341"',
+23 silly get     'last-modified': 'Thu, 03 Mar 2022 21:31:23 GMT',
+23 silly get     vary: 'Accept-Encoding',
+23 silly get     'cf-cache-status': 'HIT',
+23 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+23 silly get     'x-amz-replication-status': 'COMPLETED',
+23 silly get     server: 'cloudflare'
+23 silly get   }
+23 silly get ]
+24 verbose etag https://registry.npmjs.org/npm from cache
+25 verbose get saving npm to /Users/asimkhurshid/.npm/registry.npmjs.org/npm/.cache.json
+26 verbose correctMkdir /Users/asimkhurshid/.npm correctMkdir not in flight; initializing
+27 silly fetchNamedPackageData No valid target from cache, forcing network
+28 verbose request uri https://registry.npmjs.org/npm
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 11:28:51
+31 http request GET https://registry.npmjs.org/npm
+32 http 200 https://registry.npmjs.org/npm
+33 verbose headers {
+33 verbose headers   date: 'Fri, 04 Mar 2022 06:28:53 GMT',
+33 verbose headers   'content-type': 'application/json',
+33 verbose headers   'transfer-encoding': 'chunked',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'cf-ray': '6e688deafb6a3bf5-ISB',
+33 verbose headers   age: '21',
+33 verbose headers   'cache-control': 'public, max-age=300',
+33 verbose headers   etag: 'W/"e85cbb107fef9a3e7ac539c87e764341"',
+33 verbose headers   'last-modified': 'Thu, 03 Mar 2022 21:31:23 GMT',
+33 verbose headers   vary: 'accept-encoding, accept',
+33 verbose headers   'cf-cache-status': 'HIT',
+33 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+33 verbose headers   'x-amz-replication-status': 'COMPLETED',
+33 verbose headers   server: 'cloudflare',
+33 verbose headers   'content-encoding': 'gzip'
+33 verbose headers }
+34 silly get cb [
+34 silly get   200,
+34 silly get   {
+34 silly get     date: 'Fri, 04 Mar 2022 06:28:53 GMT',
+34 silly get     'content-type': 'application/json',
+34 silly get     'transfer-encoding': 'chunked',
+34 silly get     connection: 'keep-alive',
+34 silly get     'cf-ray': '6e688deafb6a3bf5-ISB',
+34 silly get     age: '21',
+34 silly get     'cache-control': 'public, max-age=300',
+34 silly get     etag: 'W/"e85cbb107fef9a3e7ac539c87e764341"',
+34 silly get     'last-modified': 'Thu, 03 Mar 2022 21:31:23 GMT',
+34 silly get     vary: 'accept-encoding, accept',
+34 silly get     'cf-cache-status': 'HIT',
+34 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+34 silly get     'x-amz-replication-status': 'COMPLETED',
+34 silly get     server: 'cloudflare',
+34 silly get     'content-encoding': 'gzip'
+34 silly get   }
+34 silly get ]
+35 verbose get saving npm to /Users/asimkhurshid/.npm/registry.npmjs.org/npm/.cache.json
+36 verbose correctMkdir /Users/asimkhurshid/.npm correctMkdir not in flight; initializing
+37 silly fetchPackageMetaData Error: No compatible version found: npm@13.14.1
+37 silly fetchPackageMetaData Valid install targets:
+37 silly fetchPackageMetaData 8.5.3, 8.5.2, 8.5.1, 8.5.0, 8.4.1, 8.4.0, 8.3.2, 8.3.1, 8.3.0, 8.2.0, 8.1.4, 8.1.3, 8.1.2, 8.1.1, 8.1.0, 8.0.0, 7.24.2, 7.24.1, 7.24.0, 7.23.0, 7.22.0, 7.21.1, 7.21.0, 7.20.6, 7.20.5, 7.20.4, 7.20.3, 7.20.2, 7.20.1, 7.20.0, 7.19.1, 7.19.0, 7.18.1, 7.18.0, 7.17.0, 7.16.0, 7.15.1, 7.15.0, 7.14.0, 7.13.0, 7.12.1, 7.12.0, 7.11.2, 7.11.1, 7.11.0, 7.10.0, 7.9.0, 7.8.0, 7.7.6, 7.7.5, 7.7.4, 7.7.3, 7.7.2, 7.7.1, 7.7.0, 7.6.3, 7.6.2, 7.6.1, 7.6.0, 7.5.6, 7.5.5, 7.5.4, 7.5.3, 7.5.2, 7.5.1, 7.5.0, 7.4.3, 7.4.2, 7.4.1, 7.4.0, 7.3.0, 7.2.0, 7.1.2, 7.1.1, 7.1.0, 7.0.15, 7.0.14, 7.0.13, 7.0.12, 7.0.11, 7.0.10, 7.0.9, 7.0.8, 7.0.7, 7.0.6, 7.0.5, 7.0.4, 7.0.3, 7.0.2, 7.0.1, 7.0.0, 7.0.0-rc.4, 7.0.0-rc.3, 7.0.0-rc.2, 7.0.0-rc.1, 7.0.0-rc.0, 7.0.0-beta.13, 7.0.0-beta.12, 7.0.0-beta.11, 7.0.0-beta.10, 7.0.0-beta.9, 7.0.0-beta.8, 7.0.0-beta.7, 7.0.0-beta.6, 7.0.0-beta.5, 7.0.0-beta.4, 7.0.0-beta.3, 7.0.0-beta.2, 7.0.0-beta.1, 7.0.0-beta.0, 6.14.16, 6.14.15, 6.14.14, 6.14.13, 6.14.12, 6.14.11, 6.14.10, 6.14.9, 6.14.8, 6.14.7, 6.14.6, 6.14.5, 6.14.4, 6.14.3, 6.14.2, 6.14.1, 6.14.0, 6.13.7, 6.13.6, 6.13.5, 6.13.4, 6.13.3, 6.13.2, 6.13.1, 6.13.0, 6.12.1, 6.12.0, 6.12.0-next.0, 6.11.3, 6.11.2, 6.11.1, 6.11.0, 6.10.3, 6.10.2, 6.10.2-next.3, 6.10.2-next.2, 6.10.2-next.1, 6.10.2-next.0, 6.10.1, 6.10.1-next.2, 6.10.1-next.1, 6.10.1-next.0, 6.10.0, 6.10.0-next.0, 6.9.2, 6.9.1-next.0, 6.9.0, 6.9.0-next.0, 6.8.0, 6.8.0-next.2, 6.8.0-next.1, 6.8.0-next.0, 6.7.0, 6.6.0, 6.6.0-next.1, 6.6.0-next.0, 6.5.0, 6.5.0-next.0, 6.4.1, 6.4.1-next.0, 6.4.0, 6.4.0-next.0, 6.3.0, 6.3.0-next.0, 6.2.0, 6.2.0-next.1, 6.2.0-next.0, 6.1.0, 6.1.0-next.0, 6.0.1, 6.0.1-next.0, 6.0.0, 6.0.0-next.2, 6.0.0-next.1, 6.0.0-next.0, 5.10.0, 5.10.0-next.1, 5.10.0-next.0, 5.9.0-next.0, 5.8.0, 5.8.0-next.0, 5.7.1, 5.7.0, 5.6.0, 5.5.1, 5.5.0, 5.4.2, 5.4.1, 5.4.0, 5.3.0, 5.2.0, 5.1.0, 5.0.4, 5.0.3, 5.0.2, 5.0.1, 5.0.0, 4.6.1, 4.6.0, 4.5.0, 4.4.4, 4.4.3, 4.4.2, 4.4.1, 4.4.0, 4.3.0, 4.2.0, 4.1.2, 4.1.1, 4.1.0, 4.0.5, 4.0.3, 4.0.2, 4.0.1, 4.0.0, 3.10.10, 3.10.9, 3.10.8, 3.10.7, 3.10.6, 3.10.5, 3.10.4, 3.10.3, 3.10.2, 3.10.1, 3.10.0, 3.9.6, 3.9.5, 3.9.4, 3.9.3, 3.9.2, 3.9.1, 3.9.0, 3.8.9, 3.8.8, 3.8.7, 3.8.6, 3.8.5, 3.8.4, 3.8.3, 3.8.2, 3.8.1, 3.8.0, 3.7.5, 3.7.4, 3.7.3, 3.7.2, 3.7.1, 3.7.0, 3.6.0, 3.5.4, 3.5.3, 3.5.2, 3.5.1, 3.5.0, 3.4.1, 3.4.0, 3.3.12, 3.3.11, 3.3.10, 3.3.9, 3.3.8, 3.3.7, 3.3.6, 3.3.5, 3.3.4, 3.3.3, 3.3.2, 3.3.1, 3.3.0, 3.2.2, 3.2.1, 3.2.0, 3.1.3, 3.1.2, 3.1.1, 3.1.0, 3.0.0, 2.15.12, 2.15.11, 2.15.10, 2.15.9, 2.15.8, 2.15.7, 2.15.6, 2.15.5, 2.15.4, 2.15.3, 2.15.2, 2.15.1, 2.15.0, 2.14.22, 2.14.21, 2.14.20, 2.14.19, 2.14.18, 2.14.17, 2.14.16, 2.14.15, 2.14.14, 2.14.13, 2.14.12, 2.14.11, 2.14.10, 2.14.9, 2.14.8, 2.14.7, 2.14.6, 2.14.5, 2.14.4, 2.14.3, 2.14.2, 2.14.1, 2.14.0, 2.13.5, 2.13.4, 2.13.3, 2.13.2, 2.13.1, 2.13.0, 2.12.1, 2.12.0, 2.11.3, 2.11.2, 2.11.1, 2.11.0, 2.10.1, 2.10.0, 2.9.1, 2.9.0, 2.8.4, 2.8.3, 2.8.2, 2.8.1, 2.8.0, 2.7.6, 2.7.5, 2.7.4, 2.7.3, 2.7.2, 2.7.1, 2.7.0, 2.6.1, 2.6.0, 2.5.1, 2.5.0, 2.4.1, 2.4.0, 2.3.0, 2.2.0, 2.1.18, 2.1.17, 2.1.16, 2.1.15, 2.1.14, 2.1.13, 2.1.12, 2.1.11, 2.1.10, 2.1.9, 2.1.8, 2.1.7, 2.1.6, 2.1.5, 2.1.4, 2.1.3, 2.1.2, 2.1.1, 2.1.0, 2.0.2, 2.0.1, 2.0.0, 2.0.0-beta.3, 2.0.0-beta.2, 2.0.0-beta.1, 2.0.0-beta.0, 2.0.0-alpha-5, 2.0.0-alpha.7, 2.0.0-alpha.6.0, 2.0.0-alpha.6, 1.5.0-alpha-4, 1.5.0-alpha-3, 1.5.0-alpha-2, 1.5.0-alpha-1, 1.5.0-alpha-0, 1.4.29, 1.4.28, 1.4.27, 1.4.26, 1.4.25, 1.4.24, 1.4.23, 1.4.22, 1.4.21, 1.4.20, 1.4.19, 1.4.18, 1.4.17, 1.4.16, 1.4.15, 1.4.14, 1.4.13, 1.4.12, 1.4.11, 1.4.10, 1.4.9, 1.4.8, 1.4.7, 1.4.6, 1.4.5, 1.4.4, 1.4.3, 1.4.2, 1.4.1, 1.4.0, 1.3.26, 1.3.25, 1.3.24, 1.3.23, 1.3.22, 1.3.21, 1.3.20, 1.3.18, 1.3.17, 1.3.16, 1.3.15, 1.3.14, 1.3.13, 1.3.12, 1.3.11, 1.3.10, 1.3.9, 1.3.8, 1.3.7, 1.3.6, 1.3.5, 1.3.4, 1.3.2, 1.3.1, 1.3.0, 1.2.8000, 1.2.32, 1.2.31, 1.2.30, 1.2.28, 1.2.27, 1.2.25, 1.2.24, 1.2.23, 1.2.22, 1.2.21, 1.2.20, 1.2.19, 1.1.71, 1.1.70, 1.1.25
+37 silly fetchPackageMetaData
+37 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:170:16)
+37 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+37 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+37 silly fetchPackageMetaData     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+37 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+37 silly fetchPackageMetaData     at FSReqCallback.oncomplete (node:fs:188:23)
+37 silly fetchPackageMetaData  error for npm@13.14.1 Error: No compatible version found: npm@13.14.1
+37 silly fetchPackageMetaData Valid install targets:
+37 silly fetchPackageMetaData 8.5.3, 8.5.2, 8.5.1, 8.5.0, 8.4.1, 8.4.0, 8.3.2, 8.3.1, 8.3.0, 8.2.0, 8.1.4, 8.1.3, 8.1.2, 8.1.1, 8.1.0, 8.0.0, 7.24.2, 7.24.1, 7.24.0, 7.23.0, 7.22.0, 7.21.1, 7.21.0, 7.20.6, 7.20.5, 7.20.4, 7.20.3, 7.20.2, 7.20.1, 7.20.0, 7.19.1, 7.19.0, 7.18.1, 7.18.0, 7.17.0, 7.16.0, 7.15.1, 7.15.0, 7.14.0, 7.13.0, 7.12.1, 7.12.0, 7.11.2, 7.11.1, 7.11.0, 7.10.0, 7.9.0, 7.8.0, 7.7.6, 7.7.5, 7.7.4, 7.7.3, 7.7.2, 7.7.1, 7.7.0, 7.6.3, 7.6.2, 7.6.1, 7.6.0, 7.5.6, 7.5.5, 7.5.4, 7.5.3, 7.5.2, 7.5.1, 7.5.0, 7.4.3, 7.4.2, 7.4.1, 7.4.0, 7.3.0, 7.2.0, 7.1.2, 7.1.1, 7.1.0, 7.0.15, 7.0.14, 7.0.13, 7.0.12, 7.0.11, 7.0.10, 7.0.9, 7.0.8, 7.0.7, 7.0.6, 7.0.5, 7.0.4, 7.0.3, 7.0.2, 7.0.1, 7.0.0, 7.0.0-rc.4, 7.0.0-rc.3, 7.0.0-rc.2, 7.0.0-rc.1, 7.0.0-rc.0, 7.0.0-beta.13, 7.0.0-beta.12, 7.0.0-beta.11, 7.0.0-beta.10, 7.0.0-beta.9, 7.0.0-beta.8, 7.0.0-beta.7, 7.0.0-beta.6, 7.0.0-beta.5, 7.0.0-beta.4, 7.0.0-beta.3, 7.0.0-beta.2, 7.0.0-beta.1, 7.0.0-beta.0, 6.14.16, 6.14.15, 6.14.14, 6.14.13, 6.14.12, 6.14.11, 6.14.10, 6.14.9, 6.14.8, 6.14.7, 6.14.6, 6.14.5, 6.14.4, 6.14.3, 6.14.2, 6.14.1, 6.14.0, 6.13.7, 6.13.6, 6.13.5, 6.13.4, 6.13.3, 6.13.2, 6.13.1, 6.13.0, 6.12.1, 6.12.0, 6.12.0-next.0, 6.11.3, 6.11.2, 6.11.1, 6.11.0, 6.10.3, 6.10.2, 6.10.2-next.3, 6.10.2-next.2, 6.10.2-next.1, 6.10.2-next.0, 6.10.1, 6.10.1-next.2, 6.10.1-next.1, 6.10.1-next.0, 6.10.0, 6.10.0-next.0, 6.9.2, 6.9.1-next.0, 6.9.0, 6.9.0-next.0, 6.8.0, 6.8.0-next.2, 6.8.0-next.1, 6.8.0-next.0, 6.7.0, 6.6.0, 6.6.0-next.1, 6.6.0-next.0, 6.5.0, 6.5.0-next.0, 6.4.1, 6.4.1-next.0, 6.4.0, 6.4.0-next.0, 6.3.0, 6.3.0-next.0, 6.2.0, 6.2.0-next.1, 6.2.0-next.0, 6.1.0, 6.1.0-next.0, 6.0.1, 6.0.1-next.0, 6.0.0, 6.0.0-next.2, 6.0.0-next.1, 6.0.0-next.0, 5.10.0, 5.10.0-next.1, 5.10.0-next.0, 5.9.0-next.0, 5.8.0, 5.8.0-next.0, 5.7.1, 5.7.0, 5.6.0, 5.5.1, 5.5.0, 5.4.2, 5.4.1, 5.4.0, 5.3.0, 5.2.0, 5.1.0, 5.0.4, 5.0.3, 5.0.2, 5.0.1, 5.0.0, 4.6.1, 4.6.0, 4.5.0, 4.4.4, 4.4.3, 4.4.2, 4.4.1, 4.4.0, 4.3.0, 4.2.0, 4.1.2, 4.1.1, 4.1.0, 4.0.5, 4.0.3, 4.0.2, 4.0.1, 4.0.0, 3.10.10, 3.10.9, 3.10.8, 3.10.7, 3.10.6, 3.10.5, 3.10.4, 3.10.3, 3.10.2, 3.10.1, 3.10.0, 3.9.6, 3.9.5, 3.9.4, 3.9.3, 3.9.2, 3.9.1, 3.9.0, 3.8.9, 3.8.8, 3.8.7, 3.8.6, 3.8.5, 3.8.4, 3.8.3, 3.8.2, 3.8.1, 3.8.0, 3.7.5, 3.7.4, 3.7.3, 3.7.2, 3.7.1, 3.7.0, 3.6.0, 3.5.4, 3.5.3, 3.5.2, 3.5.1, 3.5.0, 3.4.1, 3.4.0, 3.3.12, 3.3.11, 3.3.10, 3.3.9, 3.3.8, 3.3.7, 3.3.6, 3.3.5, 3.3.4, 3.3.3, 3.3.2, 3.3.1, 3.3.0, 3.2.2, 3.2.1, 3.2.0, 3.1.3, 3.1.2, 3.1.1, 3.1.0, 3.0.0, 2.15.12, 2.15.11, 2.15.10, 2.15.9, 2.15.8, 2.15.7, 2.15.6, 2.15.5, 2.15.4, 2.15.3, 2.15.2, 2.15.1, 2.15.0, 2.14.22, 2.14.21, 2.14.20, 2.14.19, 2.14.18, 2.14.17, 2.14.16, 2.14.15, 2.14.14, 2.14.13, 2.14.12, 2.14.11, 2.14.10, 2.14.9, 2.14.8, 2.14.7, 2.14.6, 2.14.5, 2.14.4, 2.14.3, 2.14.2, 2.14.1, 2.14.0, 2.13.5, 2.13.4, 2.13.3, 2.13.2, 2.13.1, 2.13.0, 2.12.1, 2.12.0, 2.11.3, 2.11.2, 2.11.1, 2.11.0, 2.10.1, 2.10.0, 2.9.1, 2.9.0, 2.8.4, 2.8.3, 2.8.2, 2.8.1, 2.8.0, 2.7.6, 2.7.5, 2.7.4, 2.7.3, 2.7.2, 2.7.1, 2.7.0, 2.6.1, 2.6.0, 2.5.1, 2.5.0, 2.4.1, 2.4.0, 2.3.0, 2.2.0, 2.1.18, 2.1.17, 2.1.16, 2.1.15, 2.1.14, 2.1.13, 2.1.12, 2.1.11, 2.1.10, 2.1.9, 2.1.8, 2.1.7, 2.1.6, 2.1.5, 2.1.4, 2.1.3, 2.1.2, 2.1.1, 2.1.0, 2.0.2, 2.0.1, 2.0.0, 2.0.0-beta.3, 2.0.0-beta.2, 2.0.0-beta.1, 2.0.0-beta.0, 2.0.0-alpha-5, 2.0.0-alpha.7, 2.0.0-alpha.6.0, 2.0.0-alpha.6, 1.5.0-alpha-4, 1.5.0-alpha-3, 1.5.0-alpha-2, 1.5.0-alpha-1, 1.5.0-alpha-0, 1.4.29, 1.4.28, 1.4.27, 1.4.26, 1.4.25, 1.4.24, 1.4.23, 1.4.22, 1.4.21, 1.4.20, 1.4.19, 1.4.18, 1.4.17, 1.4.16, 1.4.15, 1.4.14, 1.4.13, 1.4.12, 1.4.11, 1.4.10, 1.4.9, 1.4.8, 1.4.7, 1.4.6, 1.4.5, 1.4.4, 1.4.3, 1.4.2, 1.4.1, 1.4.0, 1.3.26, 1.3.25, 1.3.24, 1.3.23, 1.3.22, 1.3.21, 1.3.20, 1.3.18, 1.3.17, 1.3.16, 1.3.15, 1.3.14, 1.3.13, 1.3.12, 1.3.11, 1.3.10, 1.3.9, 1.3.8, 1.3.7, 1.3.6, 1.3.5, 1.3.4, 1.3.2, 1.3.1, 1.3.0, 1.2.8000, 1.2.32, 1.2.31, 1.2.30, 1.2.28, 1.2.27, 1.2.25, 1.2.24, 1.2.23, 1.2.22, 1.2.21, 1.2.20, 1.2.19, 1.1.71, 1.1.70, 1.1.25
+37 silly fetchPackageMetaData
+37 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:170:16)
+37 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+37 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+37 silly fetchPackageMetaData     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+37 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+37 silly fetchPackageMetaData     at FSReqCallback.oncomplete (node:fs:188:23)
+38 silly rollbackFailedOptional Starting
+39 silly rollbackFailedOptional Finishing
+40 silly runTopLevelLifecycles Starting
+41 silly runTopLevelLifecycles Finishing
+42 silly install printInstalled
+43 verbose stack Error: No compatible version found: npm@13.14.1
+43 verbose stack Valid install targets:
+43 verbose stack 8.5.3, 8.5.2, 8.5.1, 8.5.0, 8.4.1, 8.4.0, 8.3.2, 8.3.1, 8.3.0, 8.2.0, 8.1.4, 8.1.3, 8.1.2, 8.1.1, 8.1.0, 8.0.0, 7.24.2, 7.24.1, 7.24.0, 7.23.0, 7.22.0, 7.21.1, 7.21.0, 7.20.6, 7.20.5, 7.20.4, 7.20.3, 7.20.2, 7.20.1, 7.20.0, 7.19.1, 7.19.0, 7.18.1, 7.18.0, 7.17.0, 7.16.0, 7.15.1, 7.15.0, 7.14.0, 7.13.0, 7.12.1, 7.12.0, 7.11.2, 7.11.1, 7.11.0, 7.10.0, 7.9.0, 7.8.0, 7.7.6, 7.7.5, 7.7.4, 7.7.3, 7.7.2, 7.7.1, 7.7.0, 7.6.3, 7.6.2, 7.6.1, 7.6.0, 7.5.6, 7.5.5, 7.5.4, 7.5.3, 7.5.2, 7.5.1, 7.5.0, 7.4.3, 7.4.2, 7.4.1, 7.4.0, 7.3.0, 7.2.0, 7.1.2, 7.1.1, 7.1.0, 7.0.15, 7.0.14, 7.0.13, 7.0.12, 7.0.11, 7.0.10, 7.0.9, 7.0.8, 7.0.7, 7.0.6, 7.0.5, 7.0.4, 7.0.3, 7.0.2, 7.0.1, 7.0.0, 7.0.0-rc.4, 7.0.0-rc.3, 7.0.0-rc.2, 7.0.0-rc.1, 7.0.0-rc.0, 7.0.0-beta.13, 7.0.0-beta.12, 7.0.0-beta.11, 7.0.0-beta.10, 7.0.0-beta.9, 7.0.0-beta.8, 7.0.0-beta.7, 7.0.0-beta.6, 7.0.0-beta.5, 7.0.0-beta.4, 7.0.0-beta.3, 7.0.0-beta.2, 7.0.0-beta.1, 7.0.0-beta.0, 6.14.16, 6.14.15, 6.14.14, 6.14.13, 6.14.12, 6.14.11, 6.14.10, 6.14.9, 6.14.8, 6.14.7, 6.14.6, 6.14.5, 6.14.4, 6.14.3, 6.14.2, 6.14.1, 6.14.0, 6.13.7, 6.13.6, 6.13.5, 6.13.4, 6.13.3, 6.13.2, 6.13.1, 6.13.0, 6.12.1, 6.12.0, 6.12.0-next.0, 6.11.3, 6.11.2, 6.11.1, 6.11.0, 6.10.3, 6.10.2, 6.10.2-next.3, 6.10.2-next.2, 6.10.2-next.1, 6.10.2-next.0, 6.10.1, 6.10.1-next.2, 6.10.1-next.1, 6.10.1-next.0, 6.10.0, 6.10.0-next.0, 6.9.2, 6.9.1-next.0, 6.9.0, 6.9.0-next.0, 6.8.0, 6.8.0-next.2, 6.8.0-next.1, 6.8.0-next.0, 6.7.0, 6.6.0, 6.6.0-next.1, 6.6.0-next.0, 6.5.0, 6.5.0-next.0, 6.4.1, 6.4.1-next.0, 6.4.0, 6.4.0-next.0, 6.3.0, 6.3.0-next.0, 6.2.0, 6.2.0-next.1, 6.2.0-next.0, 6.1.0, 6.1.0-next.0, 6.0.1, 6.0.1-next.0, 6.0.0, 6.0.0-next.2, 6.0.0-next.1, 6.0.0-next.0, 5.10.0, 5.10.0-next.1, 5.10.0-next.0, 5.9.0-next.0, 5.8.0, 5.8.0-next.0, 5.7.1, 5.7.0, 5.6.0, 5.5.1, 5.5.0, 5.4.2, 5.4.1, 5.4.0, 5.3.0, 5.2.0, 5.1.0, 5.0.4, 5.0.3, 5.0.2, 5.0.1, 5.0.0, 4.6.1, 4.6.0, 4.5.0, 4.4.4, 4.4.3, 4.4.2, 4.4.1, 4.4.0, 4.3.0, 4.2.0, 4.1.2, 4.1.1, 4.1.0, 4.0.5, 4.0.3, 4.0.2, 4.0.1, 4.0.0, 3.10.10, 3.10.9, 3.10.8, 3.10.7, 3.10.6, 3.10.5, 3.10.4, 3.10.3, 3.10.2, 3.10.1, 3.10.0, 3.9.6, 3.9.5, 3.9.4, 3.9.3, 3.9.2, 3.9.1, 3.9.0, 3.8.9, 3.8.8, 3.8.7, 3.8.6, 3.8.5, 3.8.4, 3.8.3, 3.8.2, 3.8.1, 3.8.0, 3.7.5, 3.7.4, 3.7.3, 3.7.2, 3.7.1, 3.7.0, 3.6.0, 3.5.4, 3.5.3, 3.5.2, 3.5.1, 3.5.0, 3.4.1, 3.4.0, 3.3.12, 3.3.11, 3.3.10, 3.3.9, 3.3.8, 3.3.7, 3.3.6, 3.3.5, 3.3.4, 3.3.3, 3.3.2, 3.3.1, 3.3.0, 3.2.2, 3.2.1, 3.2.0, 3.1.3, 3.1.2, 3.1.1, 3.1.0, 3.0.0, 2.15.12, 2.15.11, 2.15.10, 2.15.9, 2.15.8, 2.15.7, 2.15.6, 2.15.5, 2.15.4, 2.15.3, 2.15.2, 2.15.1, 2.15.0, 2.14.22, 2.14.21, 2.14.20, 2.14.19, 2.14.18, 2.14.17, 2.14.16, 2.14.15, 2.14.14, 2.14.13, 2.14.12, 2.14.11, 2.14.10, 2.14.9, 2.14.8, 2.14.7, 2.14.6, 2.14.5, 2.14.4, 2.14.3, 2.14.2, 2.14.1, 2.14.0, 2.13.5, 2.13.4, 2.13.3, 2.13.2, 2.13.1, 2.13.0, 2.12.1, 2.12.0, 2.11.3, 2.11.2, 2.11.1, 2.11.0, 2.10.1, 2.10.0, 2.9.1, 2.9.0, 2.8.4, 2.8.3, 2.8.2, 2.8.1, 2.8.0, 2.7.6, 2.7.5, 2.7.4, 2.7.3, 2.7.2, 2.7.1, 2.7.0, 2.6.1, 2.6.0, 2.5.1, 2.5.0, 2.4.1, 2.4.0, 2.3.0, 2.2.0, 2.1.18, 2.1.17, 2.1.16, 2.1.15, 2.1.14, 2.1.13, 2.1.12, 2.1.11, 2.1.10, 2.1.9, 2.1.8, 2.1.7, 2.1.6, 2.1.5, 2.1.4, 2.1.3, 2.1.2, 2.1.1, 2.1.0, 2.0.2, 2.0.1, 2.0.0, 2.0.0-beta.3, 2.0.0-beta.2, 2.0.0-beta.1, 2.0.0-beta.0, 2.0.0-alpha-5, 2.0.0-alpha.7, 2.0.0-alpha.6.0, 2.0.0-alpha.6, 1.5.0-alpha-4, 1.5.0-alpha-3, 1.5.0-alpha-2, 1.5.0-alpha-1, 1.5.0-alpha-0, 1.4.29, 1.4.28, 1.4.27, 1.4.26, 1.4.25, 1.4.24, 1.4.23, 1.4.22, 1.4.21, 1.4.20, 1.4.19, 1.4.18, 1.4.17, 1.4.16, 1.4.15, 1.4.14, 1.4.13, 1.4.12, 1.4.11, 1.4.10, 1.4.9, 1.4.8, 1.4.7, 1.4.6, 1.4.5, 1.4.4, 1.4.3, 1.4.2, 1.4.1, 1.4.0, 1.3.26, 1.3.25, 1.3.24, 1.3.23, 1.3.22, 1.3.21, 1.3.20, 1.3.18, 1.3.17, 1.3.16, 1.3.15, 1.3.14, 1.3.13, 1.3.12, 1.3.11, 1.3.10, 1.3.9, 1.3.8, 1.3.7, 1.3.6, 1.3.5, 1.3.4, 1.3.2, 1.3.1, 1.3.0, 1.2.8000, 1.2.32, 1.2.31, 1.2.30, 1.2.28, 1.2.27, 1.2.25, 1.2.24, 1.2.23, 1.2.22, 1.2.21, 1.2.20, 1.2.19, 1.1.71, 1.1.70, 1.1.25
+43 verbose stack
+43 verbose stack     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:170:16)
+43 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+43 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+43 verbose stack     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+43 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+43 verbose stack     at FSReqCallback.oncomplete (node:fs:188:23)
+44 verbose cwd /Users/asimkhurshid/Documents/office/TakeTo_Frontend
+45 error Darwin 21.3.0
+46 error argv "/usr/local/Cellar/node/17.0.1/bin/node" "/usr/local/bin/npm" "install" "-g" "npm@13.14.1"
+47 error node v17.0.1
+48 error npm  v3.10.3
+49 error No compatible version found: npm@13.14.1
+49 error Valid install targets:
+49 error 8.5.3, 8.5.2, 8.5.1, 8.5.0, 8.4.1, 8.4.0, 8.3.2, 8.3.1, 8.3.0, 8.2.0, 8.1.4, 8.1.3, 8.1.2, 8.1.1, 8.1.0, 8.0.0, 7.24.2, 7.24.1, 7.24.0, 7.23.0, 7.22.0, 7.21.1, 7.21.0, 7.20.6, 7.20.5, 7.20.4, 7.20.3, 7.20.2, 7.20.1, 7.20.0, 7.19.1, 7.19.0, 7.18.1, 7.18.0, 7.17.0, 7.16.0, 7.15.1, 7.15.0, 7.14.0, 7.13.0, 7.12.1, 7.12.0, 7.11.2, 7.11.1, 7.11.0, 7.10.0, 7.9.0, 7.8.0, 7.7.6, 7.7.5, 7.7.4, 7.7.3, 7.7.2, 7.7.1, 7.7.0, 7.6.3, 7.6.2, 7.6.1, 7.6.0, 7.5.6, 7.5.5, 7.5.4, 7.5.3, 7.5.2, 7.5.1, 7.5.0, 7.4.3, 7.4.2, 7.4.1, 7.4.0, 7.3.0, 7.2.0, 7.1.2, 7.1.1, 7.1.0, 7.0.15, 7.0.14, 7.0.13, 7.0.12, 7.0.11, 7.0.10, 7.0.9, 7.0.8, 7.0.7, 7.0.6, 7.0.5, 7.0.4, 7.0.3, 7.0.2, 7.0.1, 7.0.0, 7.0.0-rc.4, 7.0.0-rc.3, 7.0.0-rc.2, 7.0.0-rc.1, 7.0.0-rc.0, 7.0.0-beta.13, 7.0.0-beta.12, 7.0.0-beta.11, 7.0.0-beta.10, 7.0.0-beta.9, 7.0.0-beta.8, 7.0.0-beta.7, 7.0.0-beta.6, 7.0.0-beta.5, 7.0.0-beta.4, 7.0.0-beta.3, 7.0.0-beta.2, 7.0.0-beta.1, 7.0.0-beta.0, 6.14.16, 6.14.15, 6.14.14, 6.14.13, 6.14.12, 6.14.11, 6.14.10, 6.14.9, 6.14.8, 6.14.7, 6.14.6, 6.14.5, 6.14.4, 6.14.3, 6.14.2, 6.14.1, 6.14.0, 6.13.7, 6.13.6, 6.13.5, 6.13.4, 6.13.3, 6.13.2, 6.13.1, 6.13.0, 6.12.1, 6.12.0, 6.12.0-next.0, 6.11.3, 6.11.2, 6.11.1, 6.11.0, 6.10.3, 6.10.2, 6.10.2-next.3, 6.10.2-next.2, 6.10.2-next.1, 6.10.2-next.0, 6.10.1, 6.10.1-next.2, 6.10.1-next.1, 6.10.1-next.0, 6.10.0, 6.10.0-next.0, 6.9.2, 6.9.1-next.0, 6.9.0, 6.9.0-next.0, 6.8.0, 6.8.0-next.2, 6.8.0-next.1, 6.8.0-next.0, 6.7.0, 6.6.0, 6.6.0-next.1, 6.6.0-next.0, 6.5.0, 6.5.0-next.0, 6.4.1, 6.4.1-next.0, 6.4.0, 6.4.0-next.0, 6.3.0, 6.3.0-next.0, 6.2.0, 6.2.0-next.1, 6.2.0-next.0, 6.1.0, 6.1.0-next.0, 6.0.1, 6.0.1-next.0, 6.0.0, 6.0.0-next.2, 6.0.0-next.1, 6.0.0-next.0, 5.10.0, 5.10.0-next.1, 5.10.0-next.0, 5.9.0-next.0, 5.8.0, 5.8.0-next.0, 5.7.1, 5.7.0, 5.6.0, 5.5.1, 5.5.0, 5.4.2, 5.4.1, 5.4.0, 5.3.0, 5.2.0, 5.1.0, 5.0.4, 5.0.3, 5.0.2, 5.0.1, 5.0.0, 4.6.1, 4.6.0, 4.5.0, 4.4.4, 4.4.3, 4.4.2, 4.4.1, 4.4.0, 4.3.0, 4.2.0, 4.1.2, 4.1.1, 4.1.0, 4.0.5, 4.0.3, 4.0.2, 4.0.1, 4.0.0, 3.10.10, 3.10.9, 3.10.8, 3.10.7, 3.10.6, 3.10.5, 3.10.4, 3.10.3, 3.10.2, 3.10.1, 3.10.0, 3.9.6, 3.9.5, 3.9.4, 3.9.3, 3.9.2, 3.9.1, 3.9.0, 3.8.9, 3.8.8, 3.8.7, 3.8.6, 3.8.5, 3.8.4, 3.8.3, 3.8.2, 3.8.1, 3.8.0, 3.7.5, 3.7.4, 3.7.3, 3.7.2, 3.7.1, 3.7.0, 3.6.0, 3.5.4, 3.5.3, 3.5.2, 3.5.1, 3.5.0, 3.4.1, 3.4.0, 3.3.12, 3.3.11, 3.3.10, 3.3.9, 3.3.8, 3.3.7, 3.3.6, 3.3.5, 3.3.4, 3.3.3, 3.3.2, 3.3.1, 3.3.0, 3.2.2, 3.2.1, 3.2.0, 3.1.3, 3.1.2, 3.1.1, 3.1.0, 3.0.0, 2.15.12, 2.15.11, 2.15.10, 2.15.9, 2.15.8, 2.15.7, 2.15.6, 2.15.5, 2.15.4, 2.15.3, 2.15.2, 2.15.1, 2.15.0, 2.14.22, 2.14.21, 2.14.20, 2.14.19, 2.14.18, 2.14.17, 2.14.16, 2.14.15, 2.14.14, 2.14.13, 2.14.12, 2.14.11, 2.14.10, 2.14.9, 2.14.8, 2.14.7, 2.14.6, 2.14.5, 2.14.4, 2.14.3, 2.14.2, 2.14.1, 2.14.0, 2.13.5, 2.13.4, 2.13.3, 2.13.2, 2.13.1, 2.13.0, 2.12.1, 2.12.0, 2.11.3, 2.11.2, 2.11.1, 2.11.0, 2.10.1, 2.10.0, 2.9.1, 2.9.0, 2.8.4, 2.8.3, 2.8.2, 2.8.1, 2.8.0, 2.7.6, 2.7.5, 2.7.4, 2.7.3, 2.7.2, 2.7.1, 2.7.0, 2.6.1, 2.6.0, 2.5.1, 2.5.0, 2.4.1, 2.4.0, 2.3.0, 2.2.0, 2.1.18, 2.1.17, 2.1.16, 2.1.15, 2.1.14, 2.1.13, 2.1.12, 2.1.11, 2.1.10, 2.1.9, 2.1.8, 2.1.7, 2.1.6, 2.1.5, 2.1.4, 2.1.3, 2.1.2, 2.1.1, 2.1.0, 2.0.2, 2.0.1, 2.0.0, 2.0.0-beta.3, 2.0.0-beta.2, 2.0.0-beta.1, 2.0.0-beta.0, 2.0.0-alpha-5, 2.0.0-alpha.7, 2.0.0-alpha.6.0, 2.0.0-alpha.6, 1.5.0-alpha-4, 1.5.0-alpha-3, 1.5.0-alpha-2, 1.5.0-alpha-1, 1.5.0-alpha-0, 1.4.29, 1.4.28, 1.4.27, 1.4.26, 1.4.25, 1.4.24, 1.4.23, 1.4.22, 1.4.21, 1.4.20, 1.4.19, 1.4.18, 1.4.17, 1.4.16, 1.4.15, 1.4.14, 1.4.13, 1.4.12, 1.4.11, 1.4.10, 1.4.9, 1.4.8, 1.4.7, 1.4.6, 1.4.5, 1.4.4, 1.4.3, 1.4.2, 1.4.1, 1.4.0, 1.3.26, 1.3.25, 1.3.24, 1.3.23, 1.3.22, 1.3.21, 1.3.20, 1.3.18, 1.3.17, 1.3.16, 1.3.15, 1.3.14, 1.3.13, 1.3.12, 1.3.11, 1.3.10, 1.3.9, 1.3.8, 1.3.7, 1.3.6, 1.3.5, 1.3.4, 1.3.2, 1.3.1, 1.3.0, 1.2.8000, 1.2.32, 1.2.31, 1.2.30, 1.2.28, 1.2.27, 1.2.25, 1.2.24, 1.2.23, 1.2.22, 1.2.21, 1.2.20, 1.2.19, 1.1.71, 1.1.70, 1.1.25
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
